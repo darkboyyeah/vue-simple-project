@@ -1,0 +1,11 @@
+{
+  "presets": ["env","stage-0"],
+  "ignore": [
+    "./src/lib/mui/js/*.js"],
+  "plugins": ["transform-runtime",["component", [
+    {
+      "libraryName": "mint-ui",
+      "style": true
+    }
+  ]]]
+}
